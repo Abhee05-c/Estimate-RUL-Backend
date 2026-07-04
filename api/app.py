@@ -19,7 +19,7 @@ app=FastAPI(title="RUL Prediction API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://estimaterul.vercel.app/"],
+    allow_origins=["https://estimaterul.vercel.app"],
     allow_headers=["*"],
     allow_credentials=True,
     allow_methods=["*"]
